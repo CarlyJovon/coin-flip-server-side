@@ -1,22 +1,37 @@
-# 💸 Week08 Bootcamp2019a Project: Node Coin Flip Game
+# 🪙 Coin Flip Game
+Guess heads or tails, and a Node.js server flips the coin. The result is decided on the server, not in the browser, so the game can't be rigged from the client.
 
-### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
+## Game Preview
+<img width="1303" height="399" alt="Screenshot 2026-11-17 at 11 14 31 AM" src="https://github.com/user-attachments/assets/1b1d211c-7788-4673-bb29-02aed0f1c5ac" />
 
-### How to submit your code for review:
+## Features
+- Choose between Heads or Tails
+- Flip a virtual coin and the server returns the result
+- Shows whether your guess won or lost
+- Interactive browser-based interface
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Tech Stack
+- Node.js
+- JavaScript
+- HTML
+- CSS
 
-Example:
+## Getting Started
+1. Clone the repository:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+git clone https://github.com/CarlyJovon/coin-flip-server-side.git
 ```
+2. Navigate into the project:
+```
+cd coin-flip-server-side
+```
+3. Install dependencies:
+```
+npm install
+```
+4. Start the server using the appropriate server entry-point file:
+```
+node server.js
+```
+
+5. Open the local server address in your browser - `http://localhost:8000`
