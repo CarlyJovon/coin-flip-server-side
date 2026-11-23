@@ -4,6 +4,9 @@ Guess heads or tails, and a Node.js server flips the coin. The result is decided
 ## Game Preview
 <img width="1303" height="399" alt="Screenshot 2026-11-17 at 11 14 31 AM" src="https://github.com/user-attachments/assets/1b1d211c-7788-4673-bb29-02aed0f1c5ac" />
 
+## Live Demo 
+[Play the Coin Flip Game!](https://coin-flip-server-side.onrender.com/)
+
 ## Features
 - Choose between Heads or Tails
 - Flip a virtual coin and the server returns the result
